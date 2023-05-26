@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.all_in_one">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.All_In_One">
+        <activity
+            android:name=".QuizResultPage"
+            android:exported="true" />
+        <activity
+            android:name=".QuizQuestion3"
+            android:exported="true" />
+        <activity
+            android:name=".QuizQuestion2"
+            android:exported="true" />
+        <activity
+            android:name=".QuizQuestion1"
+            android:exported="true" />
+        <activity
+            android:name=".QuizPage"
+            android:exported="true" />
+        <activity
+            android:name=".VideoCamera"
+            android:exported="true" />
+        <activity
+            android:name=".Camera"
+            android:exported="true" />
+        <activity
+            android:name=".CameraMenu"
+            android:exported="true" />
+        <activity
+            android:name=".CalcWithTTT"
+            android:exported="true" />
+        <activity
+            android:name=".SimpleCalc"
+            android:exported="true" />
+        <activity
+            android:name=".CalculatorMenu"
+            android:exported="true" />
+        <activity
+            android:name=".MP4Player"
+            android:exported="true" />
+        <activity
+            android:name=".MP3Player"
+            android:exported="true" />
+        <activity
+            android:name=".MediaPage"
+            android:exported="true" />
+        <activity android:name=".HomePage" />
+        <activity android:name=".EmailSignUpPage" />
+        <activity android:name=".EmailLoginPage" />
+        <activity android:name=".DatabasePage" />
+        <activity android:name=".OfflineSignUpPage" />
+        <activity android:name=".OfflineLoginPage" />
+        <activity android:name=".LoginMenu" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
